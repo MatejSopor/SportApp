@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "sportapp",
   "version": "1.0.0",
   "description": "Without description",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MatejSopor/SportApp/issues"
   },
-  "homepage": "https://github.com/MatejSopor/SportApp#readme"
+  "homepage": "https://github.com/MatejSopor/SportApp#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }
