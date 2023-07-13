@@ -26,7 +26,7 @@ async function sendEmail(data) {
   // Compose the email message
   const message = {
     from: "@gmail.com",
-    to: "matej.sopor@gmail.com",
+    to: "@gmail.com",
     subject: "New Data from API",
     text: JSON.stringify(data),
   };
