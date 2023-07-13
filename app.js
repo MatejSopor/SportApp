@@ -18,14 +18,14 @@ async function sendEmail(data) {
     // Configure your email provider details here
     host: "gmail",
     auth: {
-      user: "matej.sopor@gmail.com",
+      user: "@gmail.com",
       pass: "lzeazsdyeflvlxys",
     },
   });
 
   // Compose the email message
   const message = {
-    from: "matej.sopor@gmail.com",
+    from: "@gmail.com",
     to: "matej.sopor@gmail.com",
     subject: "New Data from API",
     text: JSON.stringify(data),
