@@ -5,7 +5,7 @@ import nodemailer from "nodemailer";
 // Function to fetch data from the API
 async function fetchData() {
   const res = await fetch(
-    `https://api.sportradar.us/nhl/trial/v6/en/league/2023/07/13/transfers.json?api_key=pmg8cgm8cn8nbwdb6emtz55a`
+    `https://api.sportradar.us/nhl/trial/v6/en/league/2023/07/13/transfers.json?api_key=`xx`
   );
   const data = await res.json();
   return data;
